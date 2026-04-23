@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env — ignora TODOS os arquivos .env (inclusive .env.production, .env.development etc)
+# e só permite commitar o .env.example como referência pública
+.env
+.env.*
+!.env.example
+
+# Secrets, chaves e certificados
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials.json
+service-account*.json
+
+# Deploy caches (Vercel / Netlify / Firebase / Cloudflare)
+.vercel/
+.netlify/
+.firebase/
+.wrangler/
+
+# Coverage / testes
+coverage/
+.nyc_output/
+
+# AI
+.claude/
+CLAUDE.md
+.cursor/
+.github/copilot-instructions.md
+.copilot/
+.windsurf/
+.aider*
+.continue/

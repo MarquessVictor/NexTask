@@ -1,0 +1,42 @@
+{
+  "name": "nextask",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Agenda pessoal em React com login Google, gerenciamento de tarefas, prioridades, categorias e timeline 'Hoje + Próximos 7 dias'.",
+  "homepage": "https://authnextask.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarquessVictor/NexTask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarquessVictor/NexTask/issues"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "google-oauth",
+    "agenda",
+    "tarefas",
+    "task-manager",
+    "spa"
+  ],
+  "author": "Victor Marques & Gabriel Paiva",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
